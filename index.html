@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Teacher Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book an Appointment</h1>
+        <form id="booking-form">
+            <label for="student-name">Student Name:</label>
+            <input type="text" id="student-name" required>
+
+            <label for="teacher-name">Teacher Name:</label>
+            <input type="text" id="teacher-name" required>
+
+            <label for="appointment-date">Date:</label>
+            <input type="date" id="appointment-date" required>
+
+            <label for="appointment-time">Time:</label>
+            <input type="time" id="appointment-time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+        <h2>Appointments</h2>
+        <ul id="appointments-list"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
